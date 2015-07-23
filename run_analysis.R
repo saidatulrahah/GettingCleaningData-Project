@@ -61,4 +61,4 @@ for (s in 1:numSubjects) {
 }
 
 dim(result)
-write.table(result, "tidydata.txt")
+write.table(result, "tidydata.txt",row.name=FALSE)
